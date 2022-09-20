@@ -1,0 +1,22 @@
+{
+    "name": "leandro/microservice-catalog",
+    "description": "App with php - catalog",
+    "authors": [
+        {
+            "name": "Leandro mendes",
+            "email": "leandromiendes@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\":"src/Core/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "ramsey/uuid": "^4.3"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.5"
+    }
+}
